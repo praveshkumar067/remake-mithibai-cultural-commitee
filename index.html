@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official landing page of SVKM's Mithibai Cultural Committee (MCC). Discover our 9 departments, achievements, and sign up for auditions to represent the premier cultural hub in Mumbai.">
+  <title>Mithibai Cultural Committee | SVKM's Mithibai College</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="index.css">
+  
+  <!-- Favicon (Fallback to MCC monogram logo icon) -->
+  <link rel="icon" type="image/png" href="assets/mcc_logo.png">
+</head>
+<body>
+
+  <!-- Background Decorative Glowing Elements -->
+  <div class="radial-glow-1"></div>
+  <div class="radial-glow-2"></div>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#" class="logo-link" id="nav-logo-link">
+        <img src="assets/mcc_logo.png" alt="Mithibai Cultural Committee Logo" class="logo-img">
+        <div class="logo-text">MITHIBAI <span>CULTURAL</span></div>
+      </a>
+      
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#about" id="nav-about-link">About Us</a></li>
+          <li class="nav-item"><a href="#departments" id="nav-depts-link">Departments</a></li>
+          <li class="nav-item"><a href="#kshitij" id="nav-kshitij-link">Kshitij Fest</a></li>
+          <li class="nav-item"><a href="#achievements" id="nav-awards-link">Achievements</a></li>
+          <li class="nav-item"><a href="#join" id="nav-join-link">Auditions</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#join" class="btn btn-secondary" style="padding: 10px 22px; font-size: 0.88rem;" id="nav-cta-btn">Join Committee</a>
+      </div>
+
+      <!-- Hamburger Menu for Mobile -->
+      <button class="nav-toggle" aria-label="Toggle Navigation" id="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-wrapper">
+      <img src="assets/hero_background.png" alt="Mithibai College Cultural Arts Fusion Background" class="hero-bg-image">
+      <div class="hero-bg-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        SVKM'S MITHIBAI COLLEGE CULTURAL BODY
+      </div>
+      <h1 class="hero-title">
+        The Heartbeat of <span class="gradient-text-neon">Creativity & Art</span>
+      </h1>
+      <p class="hero-desc">
+        Welcome to the official Mithibai Cultural Committee (MCC). We nurture talent across 9 specialized departments, organizing the legendary Kshitij Festival and representing Mithibai College at major national stages.
+      </p>
+      <div class="hero-btns">
+        <a href="#departments" class="btn btn-primary" id="hero-explore-btn">Explore Departments</a>
+        <a href="#kshitij" class="btn btn-secondary" id="hero-fest-btn">Discover Kshitij</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       LIVE EVENT COUNTDOWN TIMER
+       ========================================== -->
+  <div class="countdown-section">
+    <div class="countdown-box glass-panel reveal" id="countdown-timer">
+      <div class="countdown-info">
+        <h3>Countdown to <span class="highlight">Kshitij '26</span></h3>
+        <p>Mithibai College's flagship international cultural festival starts in Vile Parle, Mumbai.</p>
+      </div>
+      <div class="timer-grid">
+        <div class="timer-item">
+          <div class="timer-val" id="days">00</div>
+          <div class="timer-lbl">Days</div>
+        </div>
+        <div class="timer-item">
+          <div class="timer-val" id="hours">00</div>
+          <div class="timer-lbl">Hours</div>
+        </div>
+        <div class="timer-item">
+          <div class="timer-val" id="minutes">00</div>
+          <div class="timer-lbl">Mins</div>
+        </div>
+        <div class="timer-item">
+          <div class="timer-val" id="seconds">00</div>
+          <div class="timer-lbl">Secs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       ABOUT & STATISTICS SECTION
+       ========================================== -->
+  <section class="about section" id="about">
+    <div class="section-header reveal">
+      <span class="section-label">ABOUT US</span>
+      <h2 class="section-title">Nurturing Talents, <span class="gradient-text">Fostering Excellence</span></h2>
+      <p class="section-desc">
+        For decades, the Mithibai Cultural Committee has been a beacon of extracurricular energy in Mumbai. We provide students a launchpad to practice, innovate, and master diverse art forms while learning leadership, logistics, and management.
+      </p>
+    </div>
+
+    <div class="stats-grid reveal">
+      <div class="stat-card glass-panel">
+        <div class="stat-num" id="stat-depts">9</div>
+        <div class="stat-lbl">Active Creative Departments</div>
+      </div>
+      <div class="stat-card glass-panel">
+        <div class="stat-num" id="stat-members">300+</div>
+        <div class="stat-lbl">Committee Members & Crew</div>
+      </div>
+      <div class="stat-card glass-panel">
+        <div class="stat-num" id="stat-trophies">50+</div>
+        <div class="stat-lbl">National Festival Championships</div>
+      </div>
+      <div class="stat-card glass-panel">
+        <div class="stat-num" id="stat-footfall">55K+</div>
+        <div class="stat-lbl">Annual Kshitij Festival Footfall</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       DEPARTMENT HUB SECTION
+       ========================================== -->
+  <section class="departments section" id="departments">
+    <div class="section-header reveal">
+      <span class="section-label">DEPARTMENT HUB</span>
+      <h2 class="section-title">Unleash Your <span class="gradient-text">Creative Domain</span></h2>
+      <p class="section-desc">
+        Explore our 9 distinct cultural departments. Find the space that aligns with your passion, click a card to see audition formats, and get ready to create legends.
+      </p>
+    </div>
+
+    <div class="dept-grid reveal">
+      <!-- 1. DANCE -->
+      <div class="dept-card glass-panel" data-dept="dance" id="dept-card-dance">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"></path>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+          </div>
+          <span class="dept-num">01</span>
+        </div>
+        <h3 class="dept-title">Dance</h3>
+        <p class="dept-desc">High-octane street crews, classical recitals, and theme group choreography representing Mithibai at national platforms.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 2. DRAMA -->
+      <div class="dept-card glass-panel" data-dept="drama" id="dept-card-drama">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+              <path d="M9 10a1 1 0 1 0 1-1 1 1 0 0 0-1 1zm5 0a1 1 0 1 0 1-1 1 1 0 0 0-1 1z"></path>
+              <path d="M8 14.5a4 4 0 0 0 8 0"></path>
+            </svg>
+          </div>
+          <span class="dept-num">02</span>
+        </div>
+        <h3 class="dept-title">Drama</h3>
+        <p class="dept-desc">Commanding street plays (Nukkad Natak), nuanced stage play scripts, mono-acting, and mime performances.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 3. MUSIC -->
+      <div class="dept-card glass-panel" data-dept="music" id="dept-card-music">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+              <line x1="8" y1="23" x2="16" y2="23"></line>
+            </svg>
+          </div>
+          <span class="dept-num">03</span>
+        </div>
+        <h3 class="dept-title">Music</h3>
+        <p class="dept-desc">Powerhouse acoustic bands, instrumental duels, Sufi fusions, classical vocals, and modern western pop singers.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 4. FASHION -->
+      <div class="dept-card glass-panel" data-dept="fashion" id="dept-card-fashion">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+              <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+          </div>
+          <span class="dept-num">04</span>
+        </div>
+        <h3 class="dept-title">Fashion</h3>
+        <p class="dept-desc">Visual runway theme styling, custom couture modeling, pageants, and high-poise runway displays.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 5. FINE ARTS -->
+      <div class="dept-card glass-panel" data-dept="finearts" id="dept-card-finearts">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19"></path>
+              <circle cx="7.5" cy="10.5" r="1.5"></circle>
+              <circle cx="11.5" cy="7.5" r="1.5"></circle>
+              <circle cx="16.5" cy="9.5" r="1.5"></circle>
+              <circle cx="15.5" cy="14.5" r="1.5"></circle>
+              <path d="M6 16C7 16 9 18 10 20C10.5 21 8 22 6 22C4 22 4 20 4 19C4 18 5 16 6 16Z"></path>
+            </svg>
+          </div>
+          <span class="dept-num">05</span>
+        </div>
+        <h3 class="dept-title">Fine Arts</h3>
+        <p class="dept-desc">Curating grand college installations, wall graffiti art, sketching portfolios, face painting, and canvas exhibitions.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 6. LITERARY ARTS -->
+      <div class="dept-card glass-panel" data-dept="literary" id="dept-card-literary">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+          </div>
+          <span class="dept-num">06</span>
+        </div>
+        <h3 class="dept-title">Literary Arts</h3>
+        <p class="dept-desc">Deep parliamentary debating panels, creative slam poetry workshops, mock journalistic writings, and pop-culture quizzes.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 7. BUSINESS EVENTS -->
+      <div class="dept-card glass-panel" data-dept="business" id="dept-card-business">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <span class="dept-num">07</span>
+        </div>
+        <h3 class="dept-title">Business Events</h3>
+        <p class="dept-desc">Mock stock trading simulations, elevator pitch formulations, crisis PR mitigation, and management challenges.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 8. GAMING & SPORTS -->
+      <div class="dept-card glass-panel" data-dept="gaming" id="dept-card-gaming">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="6" y1="12" x2="10" y2="12"></line>
+              <line x1="8" y1="10" x2="8" y2="14"></line>
+              <line x1="15" y1="13" x2="15.01" y2="13"></line>
+              <line x1="18" y1="11" x2="18.01" y2="11"></line>
+              <rect x="2" y="6" width="20" height="12" rx="3"></rect>
+            </svg>
+          </div>
+          <span class="dept-num">08</span>
+        </div>
+        <h3 class="dept-title">Gaming & Sports</h3>
+        <p class="dept-desc">Esports league hostings (Valorant, BGMI, console tournaments) alongside track athletics, indoor chess, and table tennis.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 9. GRAPHICS & PHOTO MEDIA -->
+      <div class="dept-card glass-panel" data-dept="graphics" id="dept-card-graphics">
+        <div class="dept-header">
+          <div class="dept-icon-box">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </div>
+          <span class="dept-num">09</span>
+        </div>
+        <h3 class="dept-title">Graphics & Photo Media</h3>
+        <p class="dept-desc">Cinematic filming, social media poster design workflows, aftermovies, vlog creations, and event photography.</p>
+        <div class="dept-explore">
+          <span>View Audition Info</span>
+          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       KSHITIJ FESTIVAL SHOWCASE SECTION
+       ========================================== -->
+  <section class="festival-showcase section" id="kshitij">
+    <div class="fest-grid">
+      <div class="fest-media reveal">
+        <img src="assets/kshitij_festival.png" alt="Mithibai College Kshitij Concert Night Event" class="fest-image">
+        <div class="fest-media-overlay">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="play-badge" aria-label="Play Festival Teaser" id="kshitij-teaser-btn">
+            <svg viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="fest-content reveal">
+        <span class="fest-badge">FLAGSHIP ANNUAL FESTIVAL</span>
+        <h2 class="fest-title">Mithibai Kshitij: <br><span class="gradient-text-neon">A Euphoric Escapade</span></h2>
+        <p class="fest-desc">
+          Organized exclusively by the Mithibai Cultural Committee, Kshitij is one of India's biggest inter-collegiate cultural festivals. Spanning 4 days, it brings together students from 500+ colleges across the country to compete in over 100 events, featuring massive Pro-Nites with stars from Bollywood and the music industry.
+        </p>
+        
+        <div class="fest-stats-row">
+          <div class="fest-stat-item">
+            <div class="fest-stat-val">500+</div>
+            <div class="fest-stat-lbl">Colleges Competing</div>
+          </div>
+          <div class="fest-stat-item">
+            <div class="fest-stat-val">100+</div>
+            <div class="fest-stat-lbl">Unique Cult Events</div>
+          </div>
+          <div class="fest-stat-item">
+            <div class="fest-stat-val">4 Days</div>
+            <div class="fest-stat-lbl">Non-Stop Energy</div>
+          </div>
+        </div>
+        
+        <a href="https://linktr.ee/mithibaicultural" target="_blank" class="btn btn-neon" id="fest-visit-btn">Visit Official Kshitij Handle</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       HALL OF FAME / ACHIEVEMENTS SECTION
+       ========================================== -->
+  <section class="achievements section" id="achievements">
+    <div class="section-header reveal">
+      <span class="section-label">HALL OF FAME</span>
+      <h2 class="section-title">Dominating the <span class="gradient-text">National Stage</span></h2>
+      <p class="section-desc">
+        We don't just participate; we set the standards. Mithibai Cultural Committee consistently claims podium finishes at India's most prestigious collegiate cultural arenas.
+      </p>
+    </div>
+
+    <div class="achievements-grid reveal">
+      <!-- Achievement 1 -->
+      <div class="achievement-card glass-panel" id-attr="award-mood-indigo">
+        <div class="badge-wrapper">
+          <div class="award-badge">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="achievement-details">
+          <h4>Mood Indigo (IIT Bombay)</h4>
+          <span class="rank">Overall Champions Trophy</span>
+          <p>Consecutive first-place podium finishes in the street play (Drama) and group choreographies (Dance) at Asia's largest college cultural festival.</p>
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="achievement-card glass-panel" id-attr="award-malhar">
+        <div class="badge-wrapper">
+          <div class="award-badge">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="achievement-details">
+          <h4>Malhar (St. Xavier's)</h4>
+          <span class="rank">Runner-Up Outstanding Contingent</span>
+          <p>Gold awards in western musical bands, slam poetry presentations, and fine arts installations, establishing visual dominance in South Mumbai.</p>
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="achievement-card glass-panel" id-attr="award-umang">
+        <div class="badge-wrapper">
+          <div class="award-badge">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="achievement-details">
+          <h4>Umang (NM College)</h4>
+          <span class="rank">Consecutive Overall Winners</span>
+          <p>Unmatched winning streaks in runway pageantry (Fashion department) and tactical mock stocks (Business Events) at our neighboring SVKM platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       RECRUITMENT & AUDITION FORM SECTION
+       ========================================== -->
+  <section class="recruitment section" id="join">
+    <div class="recruitment-container">
+      <div class="recruitment-info reveal">
+        <span class="section-label">AUDITIONS 2026</span>
+        <h2 class="section-title">Begin Your <br><span class="gradient-text-neon">Cultural Journey</span></h2>
+        <p class="section-desc" style="margin-bottom: 40px;">
+          Auditions are open to all registered students of Mithibai College. Complete the entry form, pick your primary department, and wait for your scheduled call.
+        </p>
+        
+        <div class="info-bullet">
+          <div class="bullet-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+          </div>
+          <div class="bullet-text">
+            <h4>Audition Dates</h4>
+            <p>Phase 1: August 20th - August 24th, 2026</p>
+          </div>
+        </div>
+
+        <div class="info-bullet">
+          <div class="bullet-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="bullet-text">
+            <h4>Location / Room</h4>
+            <p>Cultural Room 102, Main Building, Mithibai College, Mumbai</p>
+          </div>
+        </div>
+
+        <div class="info-bullet">
+          <div class="bullet-icon">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <div class="bullet-text">
+            <h4>Important Notice</h4>
+            <p>Please bring your college ID card. Check the specific department requirements in the hub above.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-wrapper glass-panel reveal" id="audition-form-box">
+        <h3 style="font-size: 1.6rem; margin-bottom: 30px;" class="gradient-text">Audition Entry Form</h3>
+        <form id="auditionForm" action="#" class="audition-form">
+          <div class="form-group">
+            <label for="full-name" class="form-label">Full Name</label>
+            <input type="text" id="full-name" class="form-control" placeholder="e.g. Rohan Sharma" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="sap-id" class="form-label">SVKM SAP ID</label>
+            <input type="tel" id="sap-id" class="form-control" placeholder="11 digit SAP ID (e.g. 40312210001)" pattern="[0-9]{11}" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="name@domain.com" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone" class="form-label">WhatsApp Contact No</label>
+            <input type="tel" id="phone" class="form-control" placeholder="10 digit number" pattern="[0-9]{10}" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="stream" class="form-label">Academic Stream & Year</label>
+            <select id="stream" class="form-control" required>
+              <option value="" disabled selected>Select course stream</option>
+              <option value="fy-bcom">FY B.Com</option>
+              <option value="sy-bcom">SY B.Com</option>
+              <option value="ty-bcom">TY B.Com</option>
+              <option value="fy-arts">FY Arts (B.A.)</option>
+              <option value="sy-arts">SY Arts (B.A.)</option>
+              <option value="ty-arts">TY Arts (B.A.)</option>
+              <option value="fy-science">FY Science (B.Sc.)</option>
+              <option value="sy-science">SY Science (B.Sc.)</option>
+              <option value="ty-science">TY Science (B.Sc.)</option>
+              <option value="fy-bms">FY BMS / BAF / BFM</option>
+              <option value="sy-bms">SY BMS / BAF / BFM</option>
+              <option value="ty-bms">TY BMS / BAF / BFM</option>
+              <option value="postgraduate">Postgraduate (M.A. / M.Sc. / M.Com)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="dept-select" class="form-label">Auditing Department</label>
+            <select id="dept-select" class="form-control" required>
+              <option value="" disabled selected>Select primary department</option>
+              <option value="dance">Dance</option>
+              <option value="drama">Drama</option>
+              <option value="music">Music</option>
+              <option value="fashion">Fashion</option>
+              <option value="finearts">Fine Arts</option>
+              <option value="literary">Literary Arts</option>
+              <option value="business">Business Events</option>
+              <option value="gaming">Gaming & Sports</option>
+              <option value="graphics">Graphics & Photo Media</option>
+            </select>
+          </div>
+          
+          <div class="form-group full-width">
+            <label for="experience" class="form-label">Brief Past Experience / Portfolios</label>
+            <textarea id="experience" class="form-control" rows="4" placeholder="Summarize any training, previous school fests, or insert a link to your digital work/portfolio."></textarea>
+          </div>
+          
+          <div class="form-group full-width" style="margin-top: 10px;">
+            <label class="checkbox-label">
+              <input type="checkbox" id="declaration" required>
+              <span class="checkbox-custom">
+                <svg viewBox="0 0 24 24">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </span>
+              <span>I confirm that I carry a valid SVKM identity card and all inputs are correct.</span>
+            </label>
+          </div>
+          
+          <div class="form-btn-wrapper">
+            <button type="submit" class="btn btn-primary submit-btn" id="form-submit-btn">
+              <span class="spinner"></span>
+              <span class="btn-text">Submit Audition Entry</span>
+            </button>
+          </div>
+          <p class="form-disclaimer" style="font-size: 0.8rem; color: var(--text-muted); margin-top: 20px; text-align: center; line-height: 1.4;">
+            *Disclaimer: This audition portal is run by the student-led Cultural Committee and is not officially affiliated with the SVKM's Mithibai College administration. Personal details collected are kept strictly confidential and used solely for audition scheduling.*
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER SECTION
+       ========================================== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo-link" style="display: inline-flex;" id="footer-logo-link">
+          <img src="assets/mcc_logo.png" alt="Mithibai Cultural Committee Logo" class="logo-img">
+          <div class="logo-text">MITHIBAI <span>CULTURAL</span></div>
+        </a>
+        <p class="footer-desc">
+          Official student cultural body of SVKM's Mithibai College of Arts, Chauhan Institute of Science & Amrutben Jivanlal College of Commerce and Economics.
+        </p>
+        <div class="social-links">
+          <a href="https://instagram.com/mithibaicultural" target="_blank" class="social-icon" aria-label="Instagram Handle" id="footer-insta-btn">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+            </svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn Handle" id="footer-linkedin-btn">
+            <svg viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" class="social-icon" aria-label="YouTube Channel" id="footer-youtube-btn">
+            <svg viewBox="0 0 24 24">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.107C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.388.511a3.002 3.002 0 0 0-2.11 2.107C0 8.048 0 12 0 12s0 3.951.502 5.837a3.003 3.003 0 0 0 2.11 2.107c1.883.511 9.388.511 9.388.511s7.505 0 9.388-.511a3.002 3.002 0 0 0 2.11-2.107c.502-1.886.502-5.837.502-5.837s0-3.952-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-links-col">
+        <h4 class="footer-title">Navigation Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Committee</a></li>
+          <li><a href="#departments">9 Departments</a></li>
+          <li><a href="#kshitij">Kshitij Festival</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#join">Auditions Form</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact-col">
+        <h4 class="footer-title">Contact & Visit</h4>
+        <div class="footer-contact-info">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>
+              <strong>Committee Office</strong><br>
+              Room 102, Main Building, Mithibai College, Bhaktivedanta Swami Marg, Vile Parle (West), Mumbai, Maharashtra 400056
+            </span>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span>
+              <strong>Visiting Hours</strong><br>
+              Mon - Sat: 10:00 AM – 4:00 PM<br>(Must carry valid college ID card)
+            </span>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>
+              <strong>General / Fest Inquiry</strong><br>
+              mithibaikshitij@gmail.com
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="copyright" style="margin-bottom: 8px;">
+        &copy; 2026 SVKM's Mithibai Cultural Committee. Built with premium design standards.
+      </p>
+      <p class="disclaimer" style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 15px; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.4;">
+        Disclaimer: This is a student-run website and is not officially affiliated with or endorsed by the SVKM's Mithibai College administration. Personal details submitted through this site are handled in strict confidence and used solely for internal audition management.
+      </p>
+      <ul class="footer-legal">
+        <li><a href="#" id="privacy-link">Privacy Policy</a></li>
+        <li><a href="#" id="terms-link">Terms of Use</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       MODAL: DEPARTMENT DETAIL INJECTION
+       ========================================== -->
+  <div class="modal-overlay" id="dept-modal">
+    <div class="modal-container glass-panel">
+      <button class="close-btn close-modal" aria-label="Close Modal" id="dept-modal-close">
+        <svg viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      
+      <div class="modal-header">
+        <div class="modal-icon-box">
+          <!-- Injected via JavaScript -->
+        </div>
+        <div class="modal-title">
+          <h3>Department Name</h3>
+          <span class="sub">Department Subtitle</span>
+        </div>
+      </div>
+      
+      <div class="modal-body">
+        <p class="modal-desc">
+          Detailed description of the department's operations and representation at inter-collegiate festivals.
+        </p>
+        
+        <div class="modal-highlights">
+          <h4>Key Performance Fields</h4>
+          <ul class="modal-list">
+            <!-- Injected via JavaScript -->
+          </ul>
+        </div>
+        
+        <div class="modal-highlights" style="margin-bottom: 25px;">
+          <p class="modal-audition-text" id="modal-audition-req-box">
+            <strong>Audition Requirements:</strong> Prepared piece details go here.
+          </p>
+        </div>
+      </div>
+      
+      <div class="modal-actions">
+        <button class="btn btn-primary modal-join-btn" id="modal-apply-btn">Register for Auditions</button>
+        <button class="btn btn-secondary close-modal" id="modal-cancel-btn">Back to Hub</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL: SUCCESS MESSAGE OUTLET
+       ========================================== -->
+  <div class="modal-overlay" id="success-modal">
+    <div class="modal-container glass-panel success-modal">
+      <button class="close-btn close-success" aria-label="Close Success Overlay" id="success-modal-close">
+        <svg viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      
+      <div class="success-icon-wrap">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      
+      <h3 class="gradient-text">Audition Entry Submitted!</h3>
+      <p>
+        Your application has been received successfully by the MCC Administration. A coordinator from your selected department will contact you on WhatsApp with your exact audition slot.
+      </p>
+      
+      <button class="btn btn-primary success-ok-btn" style="width: 180px;" id="success-done-btn">Got it, Thanks!</button>
+    </div>
+  </div>
+
+  <!-- JavaScript Link -->
+  <script src="index.js"></script>
+</body>
+</html>
