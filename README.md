@@ -44,27 +44,6 @@ antigravity-superstation/
 
 ---
 
-## 🚀 Getting Started
-
-This is a static site — no install or build step required.
-
-### Option 1: Python
-```bash
-cd antigravity-superstation
-python -m http.server 8000
-```
-Then open → **http://localhost:8000**
-
-### Option 2: Node.js
-```bash
-npx serve .
-```
-
-### Option 3: Just open the file
-Double-click `index.html` in your file explorer to open it directly in your browser.
-
----
-
 ## ⚖️ Disclaimer
 
 > This website and audition portal are developed and managed by the student-led Cultural Committee. It is **not officially affiliated with, endorsed by, or representing** the formal administration of SVKM's Mithibai College. Personal details collected are handled with strict confidentiality and used solely for audition coordination.
